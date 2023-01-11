@@ -1,0 +1,18 @@
+//pedir un número al uauario . Imprimir por consola todos los números desde el 1 hasta el elegido
+let numero = prompt("Introduce un número")
+numero = Number(numero)
+console.log(numero)
+let contador = 0
+while(contador <numero){
+    contador++
+    console.log(contador)
+}
+
+//Recorrer todos los números entre 1 y 100 y saber si es un número múltiplo de 7
+contador = 1
+while( contador<=100){
+    contador ++
+    if(contador% 7 ==0){
+        console.log(contador)
+    }
+}
